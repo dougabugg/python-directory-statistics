@@ -1,0 +1,5 @@
+Some things I would like to change: mostly aesthetics, just perfecting the layout, small things. For the most part, this part of the program is done. The only other thing I have left to do is wrap the code in a class and allow the user to select a snapshot.
+
+One major thing concerning the FolderTree widget is sorting. By default, sorting sorts by node type (folder or file), then by column, and then by name. This gets a little complicated with ascending and descending by default for numerical columns, but I feel like it ought to be different. For example, sorting by size should not sort by node type first (maybe?), but the current method is how windows explorer sorts, so I guess it is ok for now...
+
+Also, the NodeInfoFrame widget is incomplete. There is no button to browse the folder in windows explorer. In addition, stat times are not implemented (this goes for FolderTree widget too).
