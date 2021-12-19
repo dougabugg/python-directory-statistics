@@ -8,7 +8,7 @@ import os
 class StandardMenu(Menu):
     def __init__(self,callback=None,*a,**k):
         super().__init__(*a,**k)
-        self.file_menu = file_menu = Menu(self)
+        self.file_menu = file_menu = Menu(self,tearoff=0)
         self.add_cascade(label="File",menu=file_menu)
         #TODO: actually set those accelerators?
         file_menu.add_command(
